@@ -7,7 +7,7 @@ body{
     font-family: sans-serif;
     height: 100vh;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to top, #fc7dd8 0%, #5e94f1 100%);
+    background-image: linear-gradient(to top, #f870d1 0%, #6697eb 100%);
     overflow: hidden;
 }
 .container{
@@ -22,7 +22,8 @@ body{
     padding: 1rem;
 }
 .main-title{
-    color: #5e94f1;
+    color: #f58dd7;
+    text-decoration: underline;
 }
 .main-title,
 .paragraph{
@@ -36,30 +37,24 @@ body{
 .form{
     display: flex;
 }
-.input,
-.btn-add{
-    box-shadow: 0 0 5px rgba(0, 0,0, 0.5);
-}
-.paragraph{
-    font-size: 1.2rem;
-}
 .input {
     padding: 15px 10px;
     outline: none;
     width: 400px;
     border-radius: 10px 0 0 10px;
     border: none;
+    box-shadow: 0 0 2px black;
     font-size: 1.2rem;
-    font-weight: 400;
 }
 .btn-add{
     padding: 15px 10px;
-    width: 120px;
+    width: 90px;
     border-radius: 0 10px 10px 0;
     border: none;
     color: #fff;
-    font-size: 1.5rem;
-    background-color: #5e94f1;
+    font-size: 2rem;
+    background-color: #6697eb;
+    box-shadow: 0 0 2px black;
 }
 .btn-delete{
     margin-left: auto;
@@ -71,7 +66,7 @@ body{
     outline: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 65px;
+    width: 20%;
     font-size: 1.2em;
 }
 li {

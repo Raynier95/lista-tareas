@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+    <title>HOR</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="main-title">TAREAS</h1>
-        <div class="search">
-            <form class="form">
-                <input type="text" class="input" id="input" placeholder="Añade una tarea">
-                <button class="btn-add">+</button>
-            </form>
-        </div>
-        <div class="li-container">
-            <ul class="menu">
-                <li class="list-item">
-                    <p class="task"></p>
-                </li>
+    <main class="main">
+        <section class="container">
+            <h2 class="title">Selecciona un día de la semana :D</h2>
+            <ul class="main-menu">
+                <li class="main-menu__item"><a href="/viewport/index.html" class="main-menu__link">Lunes</a></li>
+                <li class="main-menu__item"><a href="/viewport/index.html" class="main-menu__link">Martes</a></li>
+                <li class="main-menu__item"><a href="/viewport/index.html" class="main-menu__link">Miercoles</a></li>
+                <li class="main-menu__item"><a href="/viewport/index.html" class="main-menu__link">Jueves</a></li>
+                <li class="main-menu__item"><a href="/viewport/index.html" class="main-menu__link">Viernes</a></li>
             </ul>
-        </div>
-        <div class="empty">
-            <p class="paragraph">No tienes tareas pendientes</p>
-        </div>
-    </div>
-    <script src="/js/script.js"></script>
+            <button class="button" id="button">Notificarme</button>
+        </section>
+        <section class="modal" id="modal">
+            <h2 class="title-modal">Estudia 😎</h2>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
